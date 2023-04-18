@@ -9,3 +9,4 @@ Every value has a data type. Each column has a designated type.
 - Boolean: true, false
 - Date/Time: date, time, time with time zone, timestamp
 - Interval: dates that can be operated on
+  fi
