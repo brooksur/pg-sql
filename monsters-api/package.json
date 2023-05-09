@@ -1,0 +1,21 @@
+{
+  "name": "monsters-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "node-pg-migrate",
+    "configure": "./bin/configuredb.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-pg-migrate": "^6.2.2",
+    "pg": "^8.10.0"
+  }
+}
